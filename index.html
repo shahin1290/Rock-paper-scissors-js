@@ -5,18 +5,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Address book</title>
+  <title>Rock Paper Scissors Game</title>
 </head>
 
 <body>
-  <p>Rock</p>
-  <p>Paper</p>
-  <p>Scissors</p>
+    <h1>Play Rock-Paper-Scissors</h1>
+        <div id="rock">
+            <img src="images/rock.png" /><br />
+            <span class="label">Rock</span>
+        </div>
+        <div id="paper">
+            <img src="images/paper.png" /><br />
+            <span class="label">Paper</span>
+        </div>
+        <div id="scissors">
+            <img src="images/scissors.png" /><br />
+            <span class="label">Scissors</span>
+        </div>
 
+        <h2>Results</h2>
+        <div>
+            <span>Your Choice: </span><span id="userPick"></span>
+        </div>
+        <div>
+            <span >Computer's Choice: </span><span id="compPick"></span>
+        </div>
+        <div>
+            <span id="overallResult">Click for a result!</span>
+        </div>
 
+        <h2>Score</h2>
+        <div>
+            Your Score: <span id="userScore">0</span>
+        </div>
+        <div>
+            Computer Score: <span id="compScore">0</span>
+        </div>
 
-
-  <script src="./dist/bundle.js"></script>
+  <script src="dist/bundle.js"></script>
+  
 </body>
 
 </html>

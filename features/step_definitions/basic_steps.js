@@ -8,9 +8,8 @@ Then('I should see {string}', async function (content) {
     return await this.pageHasTextContent(content)
 
 });
-When('I click {string}', function (string) {
-    // Write code here that turns the phrase above into concrete actions
-    return 'pending';
+When('I click {string}', async function (string) {
+    return await this.clickOnAddContactBtn()
   });
 
 Then('I should see the result', function () {
