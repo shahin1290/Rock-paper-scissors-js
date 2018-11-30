@@ -1,9 +1,9 @@
 # Rock-Paper-Scissors game in JS
 
-### This app was built to allow the users to manage the contact details. Some of the features are:
-    Rock–paper–scissors is a hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a fist with the index finger and middle finger extended, forming a V). A simultaneous, zero-sum game, it has only two possible outcomes: a draw, or a win for one player and a loss for the other.
+## Game Requirements
+Rock–paper–scissors is a hand game usually played between two people, in which each player simultaneously forms one of         three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a       fist with the index finger and middle finger extended, forming a V). A simultaneous, zero-sum game, it has only two             possible outcomes: a draw, or a win for one player and a loss for the other.
 
-    In this game, you can play with the computer as an opponent. You can also see the result and the cumulative scores. 
+In this game, you can play with the computer as an opponent. You can also see the result and the cumulative scores. 
 
 ## Technology Stack
 This a web-based application. This means the user would need to access this from a browser. The application consists of a user interface built with HTML with Taiwind CSS library used for styling. The logic is written using vanilla Javascript with no additional libraries.
