@@ -11,9 +11,9 @@ This a web-based application. This means the user would need to access this from
 There are some acceptance tests (also known as end-to-end testing) done while building this application.
 
 ### User Stories
-  As a programmer<br>
-  In order to work in a test driven way<br>
-  I want to set up unit test for my code
+As a programmer<br>
+In order to work in a test driven way<br>
+I want to set up unit test for my code
 
 As a visitor<br>
 In order to start the game<br>
@@ -22,10 +22,6 @@ I would like to see different options for me to choice
 As a visitor<br>
 In order to play the game<br>
 I would like to be able to choose from different options
-
-As a player<br>
-In order to see who wins<br>
-I would like to see the result message
 
 ## Author
 - [Md Shahin Patowary](https://github.com/shahin1290/)
