@@ -24,6 +24,12 @@ class RPSWorld {
 
     expect(actualContent).to.be.eq(expectedContent)
   }
+  async clickOnBtn() {
+    const btnSelector = '#paper'
+    await this.page.waitForSelector(btnSelector)
+    await this.page.click(btnSelector)
+  }
+
 }
 
 setWorldConstructor(RPSWorld)

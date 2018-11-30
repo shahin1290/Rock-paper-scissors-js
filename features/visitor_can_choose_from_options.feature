@@ -5,7 +5,6 @@ Feature: Visitor can choose from different options
 
   Scenario: Visitor can choose from different options
     Given I visit the site 
-    When I click "Rock" 
-    And I click "Scissors" 
-    And I click "Papper"
-    Then I should see the result
+    When I click "Paper" 
+    Then I should see "Your Choice: paper"
+   
